@@ -159,7 +159,6 @@ while True:
 
 #==========================================================================================================#
 
-# token = 'YZgSPN6H2GkWpE26WaCoO8T3CV8saBTYqTj6SaBe9Lb'
 
 
 # bitkub.place_bid(sym='THB_BTC', amt=1, rat=1, typ='limit')
