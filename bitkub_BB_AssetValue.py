@@ -110,7 +110,7 @@ def trader(curr):
                                  typ='market')
                 time.sleep(3)
                 orderhistory(crr)    
-                print('______________________________________________')
+                print('-----------------------------------')
                 # changpos(curr, buy=True)
 
                 messenger.sendtext(f' Buy {curr} : {price} : values {re_buy} ')
@@ -130,7 +130,7 @@ def trader(curr):
                                      typ='market') 
                     time.sleep(3)
                     orderhistory(crr)                 
-                    print('______________________________________________')
+                    print('-----------------------------------')
                     # changpos(curr, buy=True)
 
                     messenger.sendtext(f' Sell {curr} : {price} : values {re_sell} ')
